@@ -29,8 +29,6 @@ public class WebSocketEventListener {
                     .sender(username)
                     .build();
             messagingTemplate.convertAndSend("/topic/public", chatMessage);
-          // user name print
-          System.out.println(username);
         }
     }
 

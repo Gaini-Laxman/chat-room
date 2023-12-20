@@ -26,6 +26,5 @@ public class ChatController {
         // Add username in web socket session
         headerAccessor.getSessionAttributes().put("username", chatMessage.getSender());
         return chatMessage;
-log.info();
     }
 }
